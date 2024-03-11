@@ -10,6 +10,7 @@ import br.com.igorbag.githubsearch.domain.Repository
 class RepositoryAdapter(private val repositories: List<Repository>) :
     RecyclerView.Adapter<RepositoryAdapter.ViewHolder>() {
 
+    var repositoryItemLister: () -> Unit = {}
     var carItemLister: (Repository) -> Unit = {}
     var btnShareLister: (Repository) -> Unit = {}
 

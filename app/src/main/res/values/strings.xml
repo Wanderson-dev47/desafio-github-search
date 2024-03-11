@@ -2,4 +2,6 @@
     <string name="app_name">GitHubSearch</string>
     <string name="nome_usuario">Nome do usuário</string>
     <string name="confirmar">Confirmar</string>
+    <string name="nome_usuario2">NOME_USUARIO</string>
+    <string name="erro_api">Aconteceu um erro inesperado de api\n</string>
 </resources>
